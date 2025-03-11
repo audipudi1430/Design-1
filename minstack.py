@@ -3,7 +3,6 @@
 # 2. On `push()`, we store the element in `stack` and push the **minimum of the current value and the previous min** into `minStack`.
 # 3. `pop()` removes elements from both stacks, while `top()` and `getMin()` retrieve values in **O(1) time**.
 
-
 # Time Complexity: push(), pop(), top(), getMin() -> O(1)
 # Space Complexity: O(n)
 
